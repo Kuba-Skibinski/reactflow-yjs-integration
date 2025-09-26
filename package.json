@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm run dev",
+    "start": "concurrently --kill-others -n frontend,backend,db -c \"#8D46FA,#388AD6\" \"npm run start:frontend\" \"npm run start:backend\""
+  },
+  "dependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
