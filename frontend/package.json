@@ -10,10 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@faker-js/faker": "^10.0.0",
     "@hocuspocus/provider": "^3.2.3",
+    "@xyflow/react": "^12.8.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "reactflow": "^11.11.4",
     "yjs": "^13.6.27"
   },
   "devDependencies": {
